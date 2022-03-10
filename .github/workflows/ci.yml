@@ -110,6 +110,8 @@ jobs:
           - ember-default-with-jquery
           - embroider-safe
           - embroider-optimized
+          - no-deprecations
+          - ember-release-no-deprecations
         allow-failure: [false]
         include:
           - ember-try-scenario: ember-canary
