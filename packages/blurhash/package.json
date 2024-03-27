@@ -52,7 +52,7 @@
     "prettier": "3.2.5",
     "rollup": "4.13.1",
     "rollup-plugin-copy": "3.5.0",
-    "rollup-plugin-node-externals": "6.1.2",
+    "rollup-plugin-node-externals": "7.1.1",
     "sharp": "0.33.3",
     "typescript": "5.4.3",
     "webpack": "5.91.0"
