@@ -1,5 +1,43 @@
 # ember-responsive-image
 
+## 1.0.0-beta.2
+
+### Major Changes
+
+- [#614](https://github.com/simonihmig/responsive-image/pull/614) [`2d10626`](https://github.com/simonihmig/responsive-image/commit/2d10626daca68fa97c6566bb5203e9861f1dadff) Thanks [@simonihmig](https://github.com/simonihmig)! - Use Record-based API for cloudinary transformations
+
+  Instead of passing cloudinary transformations as a string according to the Cloudinary Transformation URL API, you need to pass them as an object. If you want to use chained transformations, pass an array of objects.
+
+  ```js
+  // using @resposive-image/cdn
+  const simpleTransformation = cloudinaryProvider('foo/bar.jpg', {
+    transformations: { co: 'rgb:20a020', e: 'colorize:50' },
+  });
+
+  const chainedTransformation = cloudinaryProvider('foo/bar.jpg', {
+    transformations: [
+      { co: 'rgb:20a020', e: 'colorize:50' },
+      { ar: '1.0', c: 'fill', w: '150' },
+      { r: 'max' },
+    ],
+  });
+  ```
+
+  ```hbs
+  {{!-- using @responsive-image/ember }}
+  <ResponsiveImage
+    @src={{responsiveImageCloudinaryProvider
+      "foo/bar.jpg"
+      transformations=(hash co="rgb:20a020" e="colorize:50")
+    }}
+  >
+  ```
+
+### Patch Changes
+
+- Updated dependencies [[`2d10626`](https://github.com/simonihmig/responsive-image/commit/2d10626daca68fa97c6566bb5203e9861f1dadff)]:
+  - @responsive-image/cdn@1.0.0-beta.2
+
 ## 1.0.0-beta.1
 
 ### Major Changes

@@ -1,6 +1,6 @@
 {
   "name": "@responsive-image/vite-plugin",
-  "version": "1.0.0-beta.0",
+  "version": "1.0.0-beta.1",
   "description": "Vite plugins that process and resize images for use with the responsive-image suite.",
   "repository": "https://github.com/simonihmig/responsive-image",
   "license": "MIT",

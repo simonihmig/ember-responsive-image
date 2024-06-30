@@ -1,6 +1,6 @@
 {
   "name": "@responsive-image/ember",
-  "version": "1.0.0-beta.1",
+  "version": "1.0.0-beta.2",
   "description": "Automatically generate resized images at build-time, optimized for the responsive web, and using components to render them easily as <picture> elements.",
   "keywords": [
     "ember-addon"
