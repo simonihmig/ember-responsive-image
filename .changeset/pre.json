@@ -8,13 +8,20 @@
     "@responsive-image/webpack": "0.0.0",
     "@responsive-image/cdn": "1.0.0-beta.0",
     "@responsive-image/core": "1.0.0-beta.0",
-    "test-app": "0.0.0"
+    "test-app": "0.0.0",
+    "ember-classic": "0.0.0",
+    "ember-test-app": "0.0.0",
+    "ember-vite": "0.0.0",
+    "@responsive-image/vite-plugin": "1.0.0-beta.0"
   },
   "changesets": [
     "brave-bobcats-kneel",
     "bright-ligers-tell",
     "cyan-clocks-speak",
     "cyan-walls-grin",
-    "tidy-toys-hide"
+    "mean-pots-glow",
+    "tidy-toys-hide",
+    "two-trains-tease",
+    "wet-wolves-relax"
   ]
 }
